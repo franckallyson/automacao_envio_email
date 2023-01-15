@@ -28,7 +28,7 @@ for i in range(0, 500):
     msg.set_content('MENSAGEM')
 
     # Abrindo o PDF e pegando os dados
-    with open(f'{str(folha_ativa[f"B{i}"].value)} - Org.pdf', 'rb') as f:
+    with open(f'{str(folha_ativa[f"B{i}"].value)}.pdf', 'rb') as f:
         file_data = f.read()
         file_name = f.name
 
